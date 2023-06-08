@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--============= FAVICON ============== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+
+    <!--============= FLATICON ============= -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--============= FONTS ============= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--============= CSS ============= -->
+    <link rel="stylesheet" href="css/faq.css">
+
+    <!-- ============ SWIPER CSS =========== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("rQz-bDynrfOY8tiK3");
+    })();
+    </script>
+
+
+    <title>FAQs</title>
+</head>
+<body>
+    <!--================ NAVBAR ==================-->
+    <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+          <div class="logo"><a href="index.html">M.Studio</a></div>
+            <ul class="links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li>
+                <a href="#" class="desktop-link">Features</a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">Features</label>
+                <ul>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">Services</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">Services</label>
+                <ul>
+                  <li><a href="equipments.html">Equipments</a></li>
+                  <li><a href="client.html">Clients</a></li>
+                  <li>
+                    <a href="#" class="desktop-link">More</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">More</label>
+                    <ul>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="services.html">Other Services</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <ul class="wrapper1">
+            <li class="icon facebook">
+              <span><i class="fab fa-facebook-f"></i></span>
+            </li>
+            <li class="icon youtube">
+              <span><i class="fab fa-youtube"></i></span>
+            </li>
+            <li class="icon tiktok">
+              <span><i class="fab fa-tiktok"></i></span>
+            </li>
+            <li class="icon instagram">
+              <span><i class="fab fa-instagram"></i></span>
+            </li>
+          </ul>
+        </nav>
+    </div>
+
+    <main class="main">
+        <!--========== OVERLAY IMAGE =========-->
+        <section class="faq-image-section reveal">
+            <div class="overlay">
+                <div id="title-bg">
+                  <h1>FAQ's</h1>
+                </div>
+            </div>
+        </section>
+
+        <!--========== VALUE SECTION START=======-->
+        <section class="value section reveal">
+            <div class="value__containerr containerr grid">
+
+                <div class="value-content">
+                    <div class="value__accordion">
+                        <h2 class="value-header">General</h2>
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    Where do I look for “Frequently Asked” questions?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    Where can I find more information?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    What are your terms and conditions?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    Where should I put my FAQ section?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="value section reveal">
+            <div class="value__containerr containerr grid">
+
+                <div class="value-content">
+                    <div class="value__accordion">
+                        <h2 class="value-header">Account</h2>
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    Where can I find more information?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    What are your terms and conditions?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    Where should I put my FAQ section?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="value section reveal">
+            <div class="value__containerr containerr grid">
+
+                <div class="value-content">
+                    <div class="value__accordion">
+                        <h2 class="value-header">Payment</h2>
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    What kinds of payment do you accept?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    Where can I find more information?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-question-mark bx-flashing' ></i>
+                                <h3 class="value__accordion-title">
+                                    What are your terms and conditions?
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui <br>
+                                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores <br>
+                                    et quas molestias excepturi sint occaecati cupiditate non provident, <br>
+                                    similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========== VALUE SECTION END =========-->
+
+        <section class="parallax section">
+                <div class="parallax__container">
+                    <h3 class="parallax-header">Haven't found what you're looking <br> for?</h3>
+                    <p class="parallax-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Ut elit tellus, luctus <br> nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                    <div class="parallax-contact-container reveal">
+                        <a href="" class="speak-btn"><i class='bx bx-headphone bx-tada' ></i>Speak with Team</a>
+                        <a href="contact.html" class="call-btn"><i class='bx bxs-phone bx-tada' ></i>Contact Us</a>
+                    </div>
+                </div>
+        </section>
+
+        <section class="book section--lg">
+            <div class="book__containerr containerr grid ">
+                <div class="row">
+                  <div class="book-content padd-15 reveal">
+                      <span class="book__subtitle">BOOK STUDIO</span>
+                      <h1 class="book__title">
+                        Book a Session <br> Now.
+                      </h1>
+                      <a href="#book-input" class="btn">Book Now <i class='bx bx-down-arrow-alt bx-fade-up' ></i></a>
+                  </div>
+                  <div class="book__img padd-15">
+                    <img src="img/studio-image-1.jpg" alt="" id="book-img"/>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section class="booking section reveal" id="book-input">
+            <div class="booking__containerr containerr">
+                <section class="container2">
+                    <header>Book Session</header>
+                    <form action="https://formsubmit.co/tumininuseth@gmail.com" method="POST" class="form">
+                      <div class="input-box">
+                        <label>Full Name</label>
+                        <input type="text" name="name" placeholder="Enter full name" required />
+                      </div>
+                      <div class="input-box">
+                        <label>Email Address</label>
+                        <input type="email" name="email"  placeholder="Enter email address" required />
+                      </div>
+                      <div class="column">
+                        <div class="input-box">
+                          <label>Phone Number</label>
+                          <input type="number" name="number"  placeholder="Enter phone number" required />
+                        </div>
+                        <div class="input-box">
+                          <label>Preferred Date</label>
+                          <input type="date" name="date"  placeholder="dd/mm/yyyy" required />
+                        </div>
+                      </div>
+                      <div class="input-box address">
+                        <label>Select Studio</label>
+                        <div class="column">
+                          <div class="select-box">  
+                            <select name="Studio Options">
+                              <option hidden>Select your studio</option>
+                              <option >Studio 1 - Mastering</option>
+                              <option > Studio 2 - Music</option>
+                              <option >Studio 3 - Recording</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="submit">Submit</button>
+                    </form>
+                  </section>
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+        <h2 class="logos-title reveal">
+          Trusted by Clients <i class='bx bx-right-arrow-alt'></i>
+        </h2>
+        <div class="logos__containerr containerr grid reveal">
+          <div class="logos__containerr containerr grid">
+              <div class="logos__img">
+                  <img src="img/logo1.png" alt="">
+              </div>
+              <div class="logos__img">
+                  <img src="img/logo2.png" alt="">
+              </div>
+              <div class="logos__img">
+                  <img src="img/logo3.png" alt="">
+              </div>
+              <div class="logos__img">
+                  <img src="img/logo4.png" alt="">
+              </div>
+          </div>
+        </div>
+        </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="containerr">
+            <div class="row">
+                <!-- === Footer Item1 Start == -->
+                <div class="footer-item padd-15">
+                    <div class="footer-item-inner">
+                        <div class="footer-header-containerr">
+                            <h3 class="footer-header">DELAWARE BRANCH</h3>
+                            <div class="line"></div>
+                        </div>
+                        <p class="footer-description">3 E Mercury Lane, Milton,de, <br> 19968 United States</p>
+                        <a href="#" class="footer-link">
+                            <i class='bx bxs-envelope'></i> delaware@mstudio.com
+                        </a>
+                    </div>
+                </div>
+                <!-- === Footer Item1 End == -->
+
+                <!-- === Footer Item2 Start == -->
+                <div class="footer-item padd-15">
+                    <div class="footer-item-inner">
+                        <div class="footer-header-containerr">
+                            <h3 class="footer-header">TEXAS BRANCH</h3>
+                            <div class="line"></div>
+                        </div>
+                        <p class="footer-description">19 County Road 921, <br> Angleton,tx, 33515 United States</p>
+                            <a href="#" class="footer-link">
+                            <i class='bx bxs-envelope'></i> texas@mstudio.com
+                            </a>
+                    </div>
+                </div>
+                <!-- === Footer Item2 End == -->
+
+                <!-- === Footer Item3 Start == -->
+                <div class="footer-item padd-15">
+                    <div class="footer-item-inner">
+                        <div class="footer-header-containerr">
+                            <h3 class="footer-header">SOUTH DAKOTA BRANCH</h3>
+                            <div class="line"></div>
+                        </div>
+                        <p class="footer-description">23 101st Street SW, Pollock,sd, <br> 53648 United States</p>
+                        <a href="#" class="footer-link">
+                            <i class='bx bxs-envelope'></i> sthdakota@mstudio.com
+                        </a>
+                    </div>
+                </div>
+                <!-- === Footer Item3 End == -->
+                <div class="line"></div>
+                <div class="footer__info containerr">
+                    <div class="footer__privacy">
+                        <a href="#">Copyright © 2023. All Right Reserved.</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
