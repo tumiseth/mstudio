@@ -976,7 +976,19 @@ scroll-behavior: smooth;
   background: #323c4e;
 }
 
+.reveal{ 
+  position: relative;
+  transform: translateY(150px);
+  filter: blur(1px);
+  opacity: 0;
+  transition: all 1s ease;
+}
 
+.reveal.active{
+  transform: translateY(0px);
+  filter: blur(0px);
+  opacity: 1;
+}
 
 /* Media Queries for Responsiveness */
 
